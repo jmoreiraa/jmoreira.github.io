@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercício-4</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .boxcinza {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            padding: 10px;
+            background-color: rgb(175, 175, 175);
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+
+        .box {
+            color: white;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+        }
+
+        #box1,#box7 {
+            background-color: #15aabf;
+            width: 100px;
+            height: 50px;
+        }
+        #box2 {
+            background-color: #228be6;
+            width: 100px;
+            height: 50px;
+        }
+
+        #box3 {
+            background-color: #be4bdb;
+            height: 120px;
+            width: 100px;
+        }
+
+        #box4 {
+            background-color: #fe7e14;
+            height: 240px;
+            width: 50px;
+        }
+
+        #box5 {
+            background-color: #fe7e14;
+            width: 150px;
+            height: 50px;
+        }
+        #box6 {
+            background-color: #e64980;
+            width: 150px;
+            height: 50px;
+        }
+
+        #box8 {
+            background-color: #82c91e;
+            width: 200px;
+            height: 50px;
+        }
+
+        #box9 {
+            background-color: rgb(235, 25, 25);
+            width: 100px;
+            height: 50px;
+        }
+
+        #box10 {
+            background-color: #ced4da;
+            width: 45px;
+            height: 50px;
+        }
+        
+        #box11 {
+            background-color: #4c6ef5;
+            width: 100px;
+            height: 60px;
+        }
+
+        #box12 {
+            background-color: #be4bdb;
+            width: 45px;
+            height: 60px;
+        }
+
+        #box13 {
+            background-color: #12b886;
+            width: 60px;
+            height: 120px;
+        }
+
+        #box14{
+            background-color: #fb5252;
+            height: 55px;
+            width: 55px;
+        }
+        #box15 {
+            background-color: #868e96;
+            height: 55px;
+            width: 55px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxcinza">
+        <div class="col">
+            <div class="row">
+                <div class="box" id="box1"></div>
+            </div>
+            <div class="row">
+                <div class="box" id="box2"></div>
+            </div>
+            <div class="row">
+                <div class="box" id="box3"></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="box" id="box4"></div>
+        </div>
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <div class="box" id="box5"></div>
+                </div>
+                <div class="col">
+                    <div class="box" id="box6"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="box" id="box7"></div>
+                </div>
+                <div class="col">
+                    <div class="box" id="box8"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <div class="box" id="box9"></div>
+                        </div>
+                        <div class="col">
+                            <div class="box" id="box10"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="box" id="box11"></div>
+                        </div>
+                        <div class="col">
+                            <div class="box" id="box12"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box" id="box13"></div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="box" id="box14"></div>
+                    </div>
+                    <div class="row">
+                        <div class="box" id="box15"></div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
