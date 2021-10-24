@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    
+    <title>Cardapio Bootstrap</title>
+    <style>
+
+    .bg-gradient{
+        background: linear-gradient(55deg, purple, pink);
+    }
+    img{
+      width: 80px;
+    }
+/* About*//*container banner*/
+
+#menu-h a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+#title {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 110px;
+  padding: 35px 20px 0px 20px;
+  margin-top: 2px ;
+  color: black;
+  background-color: rgb(57, 56, 58);
+}
+
+#title hr{
+  border-color: rgba(255, 0, 157, 0.678);
+  width: 300px;
+}
+
+#title h1{
+  text-align: center;
+  padding: 6px;
+  margin: 0;
+}
+#logo-h {
+
+  height: 159px;
+  width: 159px;
+}
+.nav-img{
+  text-align: left;
+}
+
+
+/*container comments*/
+.container-comments {
+  margin: 50px 10%;
+}
+
+.comments {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(204, 26, 145, 0.76);
+}
+.user {
+  text-align: center;
+  width: 80px;
+}
+
+.img-user {
+  width: 45%;
+  height: 30%;
+}
+
+.comment-content {
+  margin-left: 20px;
+}
+
+.form-comment {
+  margin-top: 30px;
+}
+
+.about-h2 {
+  border-bottom: 3px solid rgba(7, 6, 7, 0.877);
+  margin: 0px;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+.compra{
+  display: flex;
+
+}
+
+.quantidade{
+  display: flex;
+  flex-direction: column;
+}
+
+.quantidade input{
+  width: 24px;
+  height: 6px;
+}
+
+.img-pag img{
+  width: 50px;
+  height: 50px;
+
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  
+}
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-light bg-gradient">
+            <div>
+            <img class="rounded-circle mr-3" src="./img/logo.jpg" alt="Logo">
+            <a class="navbar-brand text-light " href="#">Fast Burguer Gourmet</a>
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="contato.html">Contatos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="pagamento.html">Pagamentos</a>
+                </li>
+            <ul>     
+        </nav>
+      </header>
+      
+      <div>
+        <div class="card">
+            <div class="card-title">
+               <h2 class="about-h2">Contatos:</h2> 
+            </div>
+            <form class="card-form">
+                <div class="form-group">
+                    <label for="firstName">Nome:</label>
+                    <br/>
+                    <input class="form-input" type="text" id="firstName" name="firstName" />
+                </div>
+    
+                <div class="form-group">
+                    <label for="lastName">Sobrenome:</label>
+                    <br/>
+                    <input class="form-input" type="text" id="lastName" />
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <br/>
+                    <input class="form-input" type="email" id="email" />
+                </div>
+    
+                <div class="form-group">
+                    <label for="subject">Telefone:</label>
+                    <br/>
+                    <input class="form-input" type="text" id="subject" />
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <br/>
+                    <textarea class="form-area" id="message" rows="15"> </textarea>
+                </div>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+        <br/>
+    
+        <!--Contaneiner Comentários-->
+        <div class="container-comments">
+            <div class="comments-title">
+                <h2 class="about-h2">Comentário</h2>
+            </div>
+            <!--Comentários-->
+            <div class="comments">
+                <div class="comment">
+                    <!--Comentário 1-->
+                    <div class="user">
+                        <img src="../img/usuario1.png" alt="" class="img-user">
+                        <br>
+                        <div class="user-name">
+                            <b>Julio</b>
+                        </div>
+                    </div>
+                    <div class="comment-content">
+                        <p class="about-p">
+                            Os lanches está bom, porém tive que tirar carne sou vegano kk.
+                        </p>
+                    </div>
+                </div>
+                <!--Comentário 2-->
+                <div class="comment">
+                    <div class="user">
+                        <img src="../img/usuario-verificado.png" alt="" class="img-user">
+                        <br>
+                        <div class="user-name">
+                            <b>July</b>
+                        </div>
+                    </div>
+                    <div class="comment-content">
+                        <p class="about-p">
+                            Bom atendimento.
+                        </p>
+                    </div>
+                </div>
+                <!--Comentário 2-->
+                <div class="comment">
+                    <div class="user">
+                        <img src="../img/foto_perfil.jpg" alt="" class="img-user">
+                        <br>
+                        <div class="user-name">
+                            <b>Rach</b>
+                        </div>
+                    </div>
+                    <div class="comment-content">
+                        <p class="about-p">
+                        Gostei do Hambuger achei que vinha mais batata frita.
+                        </p>
+                    </div>
+            </div>
+     <!--Adicionar Comentario-->
+     <form action="" class="form-comment">
+        <div class="form-group">
+            <label for="textArea">Adicionar Comentário:</label><br>
+            <textarea name="textArea" id="textArea" cols="50" rows="5" class="form-imput"></textarea>
+            <br>
+            <button id="button-comment">Enviar Comentário</button>
+        </div>
+      </div>
+      <div>
+      <footer>
+        <div class="container-fluid bg-gradient p-5">
+            <div class="row">
+            <div class="col-sm-12 text-white text-center">
+                <p class="mb-0">Desenvolvido por Jéssica Moreira</p>
+                </div>
+            </div>
+        </div>      
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
